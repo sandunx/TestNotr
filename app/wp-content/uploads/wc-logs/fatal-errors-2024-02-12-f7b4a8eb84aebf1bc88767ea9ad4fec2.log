@@ -1,0 +1,10 @@
+2024-02-12T14:40:24+00:00 CRITICAL Unclosed '[' on line 55 does not match '}' in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 58
+
+2024-02-12T14:44:00+00:00 CRITICAL syntax error, unexpected token "}" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 70
+
+2024-02-12T14:50:51+00:00 CRITICAL syntax error, unexpected token "public" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 97
+
+2024-02-12T14:50:51+00:00 CRITICAL syntax error, unexpected token "public" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 97
+
+2024-02-12T15:04:50+00:00 CRITICAL syntax error, unexpected token "=>" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 84
+

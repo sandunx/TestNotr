@@ -1,0 +1,337 @@
+2024-02-09T13:42:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bootscore_child_enqueue_styles" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/notr/header.php(31): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/notr/front-page.php(3): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2024-02-09T13:46:48+00:00 CRITICAL Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/html/wp-content/themes/notr/functions.php on line 5
+
+2024-02-09T13:46:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bootscore_child_enqueue_styles" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/notr/header.php(31): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/notr/front-page.php(3): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2024-02-09T13:48:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bootscore_child_enqueue_styles" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/notr/header.php(31): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/notr/front-page.php(3): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2024-02-09T13:49:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bootscore_child_enqueue_styles" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/notr/header.php(31): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/notr/front-page.php(3): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2024-02-09T13:52:01+00:00 CRITICAL Uncaught Error: Class "Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:52:30+00:00 CRITICAL Uncaught Error: Class "Notr\Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:52:40+00:00 CRITICAL Uncaught Error: Class "Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:52:48+00:00 CRITICAL Uncaught Error: Class "IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:54:12+00:00 CRITICAL Uncaught Error: Class "Bootscore\Bootscore\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:54:45+00:00 CRITICAL Uncaught Error: Class "Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:54:50+00:00 CRITICAL Uncaught Error: Class "Bootscore\Bootscore\Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:55:01+00:00 CRITICAL Uncaught Error: Class "Bootscore\Bootscore\IndStan\Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:55:21+00:00 CRITICAL Uncaught Error: Class "Bootscore\Bootscore\IndStan\Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:55:39+00:00 CRITICAL Uncaught Error: Class "IndStan\Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T13:56:27+00:00 CRITICAL Uncaught Error: Class "IndStan\Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:23
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 23
+
+2024-02-09T13:56:28+00:00 CRITICAL Uncaught Error: Class "IndStan\Notr\IndStanThemeSupport" not found in /var/www/html/wp-content/themes/notr/functions.php:23
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 23
+
+2024-02-09T13:56:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bootscore_child_enqueue_styles" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/notr/header.php(31): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/notr/front-page.php(3): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2024-02-09T13:57:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bootscore_child_enqueue_styles" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/notr/header.php(31): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/notr/front-page.php(3): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2024-02-09T13:57:13+00:00 CRITICAL syntax error, unexpected token "\", expecting "{" in /var/www/html/wp-content/themes/notr/functions.php on line 3
+
+2024-02-09T14:35:40+00:00 CRITICAL Uncaught Error: Class "Discogs" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T14:36:03+00:00 CRITICAL Uncaught Error: Class "Discogs" not found in /var/www/html/wp-content/themes/notr/functions.php:22
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/notr/functions.php on line 22
+
+2024-02-09T14:36:27+00:00 CRITICAL syntax error, unexpected token "}", expecting "->" or "?->" or "{" or "[" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 57
+
+2024-02-09T14:37:11+00:00 CRITICAL Uncaught Error: Object of class Notr\Discogs could not be converted to string in /var/www/html/wp-content/themes/notr/inc/Discogs.php:57
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): Notr\Discogs->initDiscogsApi('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(621): do_action('after_setup_the...')
+#4 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 57
+
+2024-02-09T15:17:20+00:00 CRITICAL Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, array given in /var/www/html/wp-content/themes/notr/inc/Discogs.php:92
+Stack trace:
+#0 /var/www/html/wp-content/themes/notr/inc/Discogs.php(92): error_log(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(326): Notr\Discogs->getReleaseInfo(23)
+#2 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php(275): do_action('woocommerce_upd...', 23, Object(WC_Product_Simple))
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(196): WC_Product_Data_Store_CPT->update(Object(WC_Product_Simple))
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1432): WC_Data_Store->update(Object(WC_Product_Simple))
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(424): WC_Product->save()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): WC_Meta_Box_Product_Data::save(23, Object(WP_Post))
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php(273): do_action('woocommerce_pro...', 23, Object(WP_Post))
+#12 /var/www/html/wp-includes/class-wp-hook.php(326): WC_Admin_Meta_Boxes->save_meta_boxes(23, Object(WP_Post))
+#13 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /var/www/html/wp-includes/post.php(4760): do_action('save_post', 23, Object(WP_Post), true)
+#16 /var/www/html/wp-includes/post.php(4862): wp_insert_post(Array, false, true)
+#17 /var/www/html/wp-admin/includes/post.php(453): wp_update_post(Array)
+#18 /var/www/html/wp-admin/post.php(227): edit_post()
+#19 {main}
+  thrown in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 92
+
+2024-02-09T15:26:28+00:00 CRITICAL syntax error, unexpected variable "$response" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 90
+
+2024-02-09T15:26:55+00:00 CRITICAL Unclosed '{' on line 86 does not match ')' in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 87
+
+2024-02-09T15:50:21+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_sku() in /var/www/html/wp-content/themes/notr/inc/Discogs.php:77
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Notr\Discogs->getReleaseInfo(23, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4749): do_action('save_post_produ...', 23, Object(WP_Post), true)
+#4 /var/www/html/wp-includes/post.php(4862): wp_insert_post(Array, false, true)
+#5 /var/www/html/wp-admin/includes/post.php(453): wp_update_post(Array)
+#6 /var/www/html/wp-admin/post.php(227): edit_post()
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 77
+
+2024-02-09T15:56:33+00:00 CRITICAL syntax error, unexpected token "return", expecting "function" or "const" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 97
+
+2024-02-09T16:00:01+00:00 CRITICAL Uncaught Error: Undefined constant "Notr\FASLE" in /var/www/html/wp-content/themes/notr/inc/Discogs.php:85
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Notr\Discogs->getReleaseInfo(23, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4760): do_action('save_post', 23, Object(WP_Post), true)
+#4 /var/www/html/wp-includes/post.php(4862): wp_insert_post(Array, false, true)
+#5 /var/www/html/wp-admin/includes/post.php(453): wp_update_post(Array)
+#6 /var/www/html/wp-admin/post.php(227): edit_post()
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 85
+
+2024-02-09T16:28:53+00:00 CRITICAL syntax error, unexpected variable "$product" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 94
+
+2024-02-09T16:28:54+00:00 CRITICAL syntax error, unexpected variable "$product" in /var/www/html/wp-content/themes/notr/inc/Discogs.php on line 94
+

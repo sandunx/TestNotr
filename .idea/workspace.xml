@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7756264-de6a-4014-b449-8b5ac292fdf4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/wp-content/themes/focuswales" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2LpGCo1qEMZX9NhGjZrafkzD4z8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ianjonze/Sites/NOTR/app/wp-content/themes/notr/inc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;,
+      &quot;HTML&quot;,
+      &quot;PHP&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/notr/inc" />
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/notr" />
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/notr/img/logo" />
+      <recent name="$PROJECT_DIR$/app/wp-content/themes" />
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/bootscore-main/img/logo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/focuswales" />
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/focuswales/inc" />
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/focuswales/images" />
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/focuswales/inc/FestivalPro" />
+      <recent name="$PROJECT_DIR$/app/wp-content/themes/focuswales/archive/ArchivedByIndustrialStandards" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7756264-de6a-4014-b449-8b5ac292fdf4" name="Changes" comment="" />
+      <created>1676560485919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676560485919</updated>
+      <workItem from="1676560487037" duration="6160000" />
+      <workItem from="1677000191759" duration="65614000" />
+      <workItem from="1677492100250" duration="4308000" />
+      <workItem from="1677582655872" duration="15322000" />
+      <workItem from="1677683111188" duration="2504000" />
+      <workItem from="1677753474415" duration="14821000" />
+      <workItem from="1677841931207" duration="27236000" />
+      <workItem from="1678458095035" duration="77000" />
+      <workItem from="1699880947058" duration="19000" />
+      <workItem from="1699880983012" duration="146000" />
+      <workItem from="1699881142630" duration="127000" />
+      <workItem from="1699881277516" duration="81000" />
+      <workItem from="1699881364165" duration="10528000" />
+      <workItem from="1701782476972" duration="3314000" />
+      <workItem from="1701787543848" duration="4609000" />
+      <workItem from="1701793044513" duration="31469000" />
+      <workItem from="1701945228254" duration="21809000" />
+      <workItem from="1701968588599" duration="28172000" />
+      <workItem from="1702303013439" duration="4010000" />
+      <workItem from="1702309019626" duration="29051000" />
+      <workItem from="1704202789855" duration="27401000" />
+      <workItem from="1704378569740" duration="50355000" />
+      <workItem from="1704881063142" duration="7002000" />
+      <workItem from="1704899704505" duration="23674000" />
+      <workItem from="1706023120268" duration="3199000" />
+      <workItem from="1706270087302" duration="6026000" />
+      <workItem from="1706291756220" duration="15000" />
+      <workItem from="1706691264484" duration="5253000" />
+      <workItem from="1706716158886" duration="1421000" />
+      <workItem from="1707140289094" duration="8067000" />
+      <workItem from="1707403917930" duration="49217000" />
+      <workItem from="1708002544700" duration="1106000" />
+      <workItem from="1708422379733" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/wp-content/themes/twentytwentyone/footer.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/wp-content/themes/wma/header.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/wp-content/themes/focuswales/page_press.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

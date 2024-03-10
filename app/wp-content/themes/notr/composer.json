@@ -1,0 +1,18 @@
+{
+    "name": "indstan/notr",
+    "type": "worpress-theme",
+    "autoload": {
+        "psr-4": {
+            "Notr\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ian Jones",
+            "email": "ian@industrialstandards.co.uk"
+        }
+    ],
+    "require": {
+        "calliostro/php-discogs-api": "^2.0"
+    }
+}

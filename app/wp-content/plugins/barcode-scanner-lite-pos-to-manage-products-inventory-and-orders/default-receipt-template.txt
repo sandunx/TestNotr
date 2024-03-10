@@ -1,0 +1,55 @@
+<link rel='preconnect' href='https://fonts.googleapis.com'>
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+<link href='https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap' rel='stylesheet'>
+
+<div style='width: 55mm; padding: 3mm 1mm; font-size: 12px; 
+            font-family: Oswald, sans-serif; line-height:0.95'>
+  <div style='text-align: center;'>
+    <div><b>[store-name]</b></div>
+    <div>[store-postcode], [store-address], [store-address-2]</div>
+    <div>[store-country] [store-state] [store-city]</div>
+  </div>
+  <div style='border-top: 1px solid black; margin: 2mm 0'></div>
+  <table style='width: 100%; font-size: 12px;'>
+    [product-list-start test-products=10]
+      <tr>
+        <td style='width: 100%'>[product-name]</td>
+        <td style='padding-right: 1mm;'><nobr>[order-product-qty] x [item-price]</nobr></td>
+        <td>[item-price-total]</td>
+      </tr>
+    [product-list-end]
+  </table>
+  <div style='border-top: 1px solid black; margin: 2mm 0'></div>
+  <table style='width: 100%; font-size: 12px;'>
+    <!--<tr>
+      <td>Payment</td>
+      <td style='text-align: right;'>[payment-name]</td>
+    </tr>-->
+    <tr>
+      <td>Shipping</td>
+      <td style='text-align: right;'>[order-shipping]</td>
+    </tr>
+    <tr>
+      <td>Shipping tax</td>
+      <td style='text-align: right;'>[order-shipping-tax]</td>
+    </tr>
+    <tr>
+      <td>Subtotal</td>
+      <td style='text-align: right;'>[order-subtotal]</td>
+    </tr>
+    <tr>
+      <td>Subtotal tax</td>
+      <td style='text-align: right;'>[order-subtotal-tax]</td>
+    </tr>
+    <tr>
+      <td>Total tax</td>
+      <td style='text-align: right;'>[order-tax]</td>
+    </tr>
+    <tr>
+      <td style='font-weight:bold;'>Total</td>
+      <td style='text-align: right; font-weight:bold;'>[order-total]</td>
+    </tr>
+  </table>
+  <div style='border-top: 1px solid black; margin: 2mm 0'></div>
+  <div style='text-align: center;'>[order-date]</div>
+</div>
